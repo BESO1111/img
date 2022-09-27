@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 1);
+    padding:34px 240px 32px 240px;
+    position: fixed;
+  
+}
+
+header nav{
+    margin-left: -90px;
+}
+
+
+
+
+header  li{
+    float: left;
+   margin-right: 34px;
+}
+header li a{
+    text-transform: uppercase;
+  color:  rgba(255, 255, 255, 1);
+  font-size: 18px;
+  background-color: rgb(24, 23, 23);
+  padding: 5px 10px;
+
+    
+    
+  
+}
+
+header h1{
+width: 30px;
+height: 30px;
+background-image: url(../img/music-note.png);
+background-repeat: no-repeat;
+background-size: 100%;
+text-indent: -500555px;
+margin-left:-200px;
+float: left;
+margin-right: -140px;
+}
+header h1 a{
+    width: 30px;
+    height: 30px;
+    display: block;
+   
+}
+
+main{
+    padding-top: 90px;
+   
+}
+
+
+.face a img{
+    width: 30px;
+    height: 30px;
+  position: fixed;
+  right: 0;
+  top: 300px;
+}
+
+
+
+
+.face{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top:200px;
+    /* background-color: aqua;  */
+        background-image: url(../img/fb.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.insta{
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top:252px;
+   /* background-color: aqua; */
+background-image: url(../img/instagram.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+
+}
+
+
+
+
+.today{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+ section{
+    margin-left: 100px;
+    margin-top: 50px;
+width: 300px;
+height: 270px;
+border:2px solid black;
+
+
+}
+
+
+
+section .heart{
+    width: 30px;
+    height: 30px;
+    /*background-color: blueviolet;*/
+    margin-left: 268px;
+    background-image: url(../img/favicon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 30px;
+
+}
+
+section .sound{
+width: 64px;
+height: 64px;
+background-image: url(../img/sound.png);
+background-repeat: repeat-x;
+background-size: 100%;
+float: left;
+margin-left: 8px;
+
+}
+
+
+
+section h2{
+    padding-left: 12px;
+    padding-top: 120px;
+    font-size: 18px;
+    
+    
+    }
+    section p{
+    padding-left: 12px;
+    padding-top: 6px;
+    }
+
+
+.gone{
+    margin-left: 98px;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+
+article{
+    float: left;
+    
+}
+
+
+.laters{
+    margin-top: 380px;
+    margin-left: 98px;
+}
+
+
+footer{
+    clear: both;
+width: 100%;
+
+background-color: rgba(0, 0, 0, 1);
+clear: both;
+height: 354px;
+
+
+}
+
+
+
+footer{
+clear: both;
+position: relative;
+width: 100%;
+height: 340px;
+
+ 
+
+
+}
+
+footer .diviko{
+width: 150px;
+height: 150px;
+/*background-color: aqua;*/
+margin-left: 700px;
+margin-top: 50px;
+position: absolute;
+background-image: url(../img/music-note.png);
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+footer .diviko2{
+
+position: absolute;
+margin-left: 742px;
+margin-top:234px ;
+color:aliceblue
+}
+
+footer .reserved{
+position: absolute;
+   margin-left: 718px;
+   margin-top: 298px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* ----------------  styles playlist ------------------ */
+
+
+
+.playlist{
+margin-left: 60px;
+margin-top: 50px;
+
+}
+.playlist h1{
+font-size: 24px;
+
+
+
+}
+
+.playlist p{
+font-size: 18px;
+
+}
+
+
+
+
+
+.playlist2{
+
+    margin-left:380px ;
+    margin-top: -238px;
+}
+.playlist2 h1{
+
+    font-size: 24px;
+}
+
+.playlist2 p{
+
+font-size: 18px;
+
+
+}
+
+
+
+
+
+.soundebi{
+
+
+    width: 260px;
+    height: 65px;
+    /* background-color: blue; */
+ margin-left: 470px;
+ margin-top: 22px;
+ background-image: url(../img/sound.png);
+ background-repeat: repeat-x;
+ background-size: 25%;
+ margin-bottom: 50px;
+   
+}
+
+
+
+   
+
+.musika{
+ margin-left: 60px;
+ 
+
+}
+
+
+
+
+
+.playlist3{
+
+    float: left;
+    /* position: relative; */
+    margin-right: 150px;
+
+
+}
+
+.playlist3 h2{
+    font-size: 24px;
+
+}
+
+.playlist3 p{
+
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.soundebi2{
+    width: 260px;
+    height: 65px;
+    /* background-color: blue; */
+ margin-left: 640px;
+ margin-top: 22px;
+margin-top: 380px;
+ background-image: url(../img/sound.png);
+ background-repeat: repeat-x;
+ background-size: 25%;
+
+
+}
+
+
+
+.thanks{
+font-size: 36px;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 100px;
+
+}
