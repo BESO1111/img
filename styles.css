@@ -207,6 +207,26 @@ section .heart{
 }
 
 
+.shadoww:hover{
+
+box-shadow: 0px 0px 40px rgb(16, 73, 16);
+
+cursor: pointer;
+
+
+}
+
+.goon:hover{
+text-decoration: underline;
+cursor: pointer;
+
+
+}
+
+
+
+
+
 section .sound{
 width: 64px;
 height: 64px;
