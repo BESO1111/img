@@ -8,7 +8,10 @@
 }
 
 
+body{
+background-color: #4ed190;
 
+}
 
 
 header{
@@ -36,12 +39,33 @@ header li a{
   color:  rgba(255, 255, 255, 1);
   font-size: 18px;
   background-color: rgb(24, 23, 23);
-  padding: 5px 10px;
+  padding: 10px 10px;
+  position: relative;
 
     
     
   
 }
+
+
+header li .line::before{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #0a7adb;
+    position: absolute;
+    bottom: 0;
+    left:0;
+
+}
+header li .line:hover::before{
+transition: 2s;
+width: 100%;
+
+
+}
+
+
 
 header h1{
 width: 30px;
@@ -60,6 +84,13 @@ header h1 a{
     display: block;
    
 }
+
+
+
+
+
+
+
 
 main{
     padding-top: 90px;
@@ -90,6 +121,15 @@ main{
     background-size: 100%;
 }
 
+.face:hover{
+background-image:url(../img/facebook\ blue.png);
+background-repeat: no-repeat;
+background-size: 100%;
+cursor: pointer;
+
+
+}
+
 
 
 .insta{
@@ -108,6 +148,18 @@ background-size: 100%;
 
 }
 
+
+.insta:hover{
+    background-image:url(../img/instagram\ red.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+
+
+
+
+
+}
 
 
 
@@ -139,6 +191,21 @@ section .heart{
     margin-bottom: 30px;
 
 }
+
+
+.hoveri:hover{
+    background-image: url(../img/yellow\ heart.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    /* background size gavuzarde lamazi rom gamosuliko hoveri */
+    cursor: pointer;
+  
+
+
+
+
+}
+
 
 section .sound{
 width: 64px;
@@ -246,7 +313,24 @@ position: absolute;
 margin-left: 60px;
 margin-top: 50px;
 
+
 }
+
+.playlist:hover{
+background-color:rgba(0, 0, 0, 0.1);
+box-shadow: 0px 0px 20px #310303;
+
+
+width: 208px;
+cursor: pointer;
+
+
+
+
+
+}
+
+
 .playlist h1{
 font-size: 24px;
 
